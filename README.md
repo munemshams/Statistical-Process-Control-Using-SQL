@@ -39,26 +39,26 @@ The data is available in the `manufacturing_parts` table which has the following
 
 **SQL Techniques Used**
 
-Window functions
+- Window functions
 
-Rolling statistics
+- Rolling statistics
 
-Nested subqueries
+- Nested subqueries
 
-Custom calculated fields
+- Custom calculated fields
 
-Condition-based flagging
+- Condition-based flagging
 
 **Output**
 
 For each manufactured part (starting from the 5th per operator), the query returns:
 
-height
+- height
 
-rolling average
+- rolling average
 
-rolling standard deviation
+- rolling standard deviation
 
-calculated UCL / LCL
+- calculated UCL / LCL
 
-alert → TRUE if out of bounds
+- alert → TRUE if out of bounds
