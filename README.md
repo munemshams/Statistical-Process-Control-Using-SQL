@@ -24,3 +24,29 @@ The data is available in the `manufacturing_parts` table which has the following
 - `width`: the width of the item made
 - `height`: the height of the item made
 - `operator`: the operating machine
+
+**SQL Techniques Used**
+
+Window functions
+
+Rolling statistics
+
+Nested subqueries
+
+Custom calculated fields
+
+Condition-based flagging
+
+**Output**
+
+For each manufactured part (starting from the 5th per operator), the query returns:
+
+height
+
+rolling average
+
+rolling standard deviation
+
+calculated UCL / LCL
+
+alert → TRUE if out of bounds
