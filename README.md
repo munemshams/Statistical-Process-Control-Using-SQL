@@ -25,6 +25,18 @@ The data is available in the `manufacturing_parts` table which has the following
 - `height`: the height of the item made
 - `operator`: the operating machine
 
+**Files Included**
+
+-Readme.md → Project Documentation
+
+-notebook.ipynb → Notebook file containing the analysis
+
+- SQL Query.sql → Raw SQL Query
+
+- 2 raw datasets in the "data" folder
+
+- 1 output CSV file in the "output" folder
+
 **SQL Techniques Used**
 
 Window functions
