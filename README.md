@@ -14,9 +14,9 @@ $lcl = avg\_height - 3 * \frac{stddev\_height}{\sqrt{5}}$
 
 Where:
 
--Rolling averages and standard deviations are computed over a window of the previous 4 items plus the current item (5 total).
+- Rolling averages and standard deviations are computed over a window of the previous 4 items plus the current item (5 total).
 
--Any height outside these limits triggers an alert = TRUE.
+- Any height outside these limits triggers an alert = TRUE.
 
 The data is available in the `manufacturing_parts` table which has the following fields:
 - `item_no`: the item number
@@ -27,15 +27,15 @@ The data is available in the `manufacturing_parts` table which has the following
 
 **Files Included**
 
--Readme.md → Project Documentation
+- Readme.md → Project Documentation
 
--notebook.ipynb → Notebook file containing the analysis
+- notebook.ipynb → Notebook file containing the analysis
 
--SQL Query.sql → Raw SQL Query
+- SQL Query.sql → Raw SQL Query
 
--2 raw datasets in the "data" folder
+- 2 raw datasets in the "data" folder
 
--1 output CSV file in the "output" folder
+- 1 output CSV file in the "output" folder
 
 **SQL Techniques Used**
 
