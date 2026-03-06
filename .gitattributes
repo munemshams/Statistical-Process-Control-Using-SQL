@@ -1,8 +1,1 @@
-# Force GitHub to detect SQL correctly
-
 *.sql linguist-language=SQL
-
-# Ignore notebooks in language statistics
-
-*.ipynb linguist-detectable=false
-
